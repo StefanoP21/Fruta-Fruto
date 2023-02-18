@@ -1,0 +1,19 @@
+.personas {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+@media screen and (min-width: 0px) {
+    .personas {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .personas {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
